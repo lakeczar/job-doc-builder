@@ -1,0 +1,32 @@
+{
+  "template": "cover-letter.docx",
+  "roles": {
+    "name": {
+      "paragraph": 0
+    },
+    "contact": {
+      "paragraph": 1
+    },
+    "date": {
+      "paragraph": 2
+    },
+    "recipient": {
+      "paragraph": 3
+    },
+    "greeting": {
+      "paragraph": 4
+    },
+    "body": {
+      "paragraph": 5
+    },
+    "closing": {
+      "paragraph": 6
+    },
+    "signature": {
+      "paragraph": 7
+    }
+  },
+  "contract": {
+    "page_limit": 1
+  }
+}

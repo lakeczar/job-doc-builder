@@ -1,0 +1,45 @@
+{
+  "entries": [
+    {
+      "id": "northwind-2021",
+      "type": "role",
+      "title": "Senior Frontend Engineer",
+      "org": "Northwind Traders",
+      "start": "2021-03",
+      "end": "present",
+      "location": "Remote",
+      "summary": "Leads the web checkout team.",
+      "facts": [
+        {"id": "f1", "text": "Rebuilt the checkout flow in React and TypeScript; conversion rose from 2.1% to 2.9% over 6 months.", "confidence": "confirmed", "source": "interview 2026-10-07; analytics export"},
+        {"id": "f2", "text": "Mentored 4 engineers; 2 were promoted.", "confidence": "confirmed", "source": "interview 2026-10-07"},
+        {"id": "f3", "text": "Cut the JavaScript bundle by about 40% through code splitting.", "confidence": "approximate", "source": "interview 2026-10-07"}
+      ]
+    },
+    {
+      "id": "contoso-2018",
+      "type": "role",
+      "title": "Frontend Engineer",
+      "org": "Contoso",
+      "start": "2018-06",
+      "end": "2021-02",
+      "location": "Austin, TX",
+      "summary": "Built internal dashboards.",
+      "facts": [
+        {"id": "f1", "text": "Built a design system of 35 components used by 6 teams.", "confidence": "confirmed", "source": "interview 2026-10-07"}
+      ]
+    },
+    {
+      "id": "edu-ut",
+      "type": "education",
+      "title": "B.S. Computer Science",
+      "org": "University of Texas at Austin",
+      "end": "2018",
+      "facts": []
+    }
+  ],
+  "skills": [
+    {"id": "react", "name": "React", "level": "expert", "years": 7, "evidence": ["northwind-2021.f1", "contoso-2018.f1"]},
+    {"id": "typescript", "name": "TypeScript", "level": "advanced", "years": 5, "evidence": ["northwind-2021.f1"]},
+    {"id": "testing", "name": "Playwright, Jest", "level": "working", "notes": "end-to-end and unit tests", "evidence": ["northwind-2021.f1"]}
+  ]
+}

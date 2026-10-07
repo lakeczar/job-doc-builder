@@ -1,0 +1,29 @@
+{
+  "template": "resume.docx",
+  "roles": {
+    "name": {
+      "paragraph": 0
+    },
+    "contact": {
+      "paragraph": 1
+    },
+    "section": {
+      "paragraph": 2
+    },
+    "body": {
+      "paragraph": 3
+    },
+    "entry": {
+      "paragraph": 4
+    },
+    "bullet": {
+      "paragraph": 5
+    },
+    "skills": {
+      "paragraph": 6
+    }
+  },
+  "contract": {
+    "page_limit": 2
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "blocks": [
+    {"role": "name", "text": "Jane Doe"},
+    {"role": "contact", "text": "Austin, TX | jane@example.com | 555-010-0100"},
+    {"role": "date", "text": "October 7, 2026"},
+    {"role": "recipient", "text": "Hiring Team, Fabrikam"},
+    {"role": "greeting", "text": "Dear Hiring Team,"},
+    {"role": "body", "text": "Your posting asks for someone who can own a checkout experience end to end. At Northwind Traders I rebuilt ours in React and TypeScript, and conversion rose from 2.1% to 2.9% over 6 months.", "evidence": ["northwind-2021.f1"]},
+    {"role": "body", "text": "I also care about the people side of the work. I mentored 4 engineers at Northwind, and 2 were promoted.", "evidence": ["northwind-2021.f2"]},
+    {"role": "closing", "text": "Sincerely,"},
+    {"role": "signature", "text": "Jane Doe"}
+  ]
+}

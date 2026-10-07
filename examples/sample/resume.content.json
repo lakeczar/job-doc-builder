@@ -1,0 +1,20 @@
+{
+  "blocks": [
+    {"role": "name", "text": "Jane Doe"},
+    {"role": "contact", "text": "Austin, TX | jane@example.com | 555-010-0100 | [linkedin.com/in/janedoe](https://www.linkedin.com/in/janedoe)"},
+    {"role": "section", "text": "SUMMARY"},
+    {"role": "body", "text": "Frontend engineer who leads checkout work at Northwind Traders and built a shared design system at Contoso.", "evidence": ["northwind-2021", "contoso-2018.f1"]},
+    {"role": "section", "text": "SKILLS"},
+    {"role": "skills", "text": "**Frontend:** React, TypeScript", "evidence": ["react", "typescript"]},
+    {"role": "skills", "text": "**Testing:** Playwright, Jest", "evidence": ["testing"]},
+    {"role": "section", "text": "EXPERIENCE"},
+    {"role": "entry", "text": "**Northwind Traders** — Senior Frontend Engineer\tMar 2021 – Present", "evidence": ["northwind-2021"]},
+    {"role": "bullet", "text": "Rebuilt the checkout flow in React and TypeScript, raising conversion from 2.1% to 2.9% in 6 months.", "evidence": ["northwind-2021.f1"]},
+    {"role": "bullet", "text": "Mentored 4 engineers, 2 of whom were promoted.", "evidence": ["northwind-2021.f2"]},
+    {"role": "bullet", "text": "Cut the JavaScript bundle by about 40% through code splitting.", "evidence": ["northwind-2021.f3"]},
+    {"role": "entry", "text": "**Contoso** — Frontend Engineer\tJun 2018 – Feb 2021", "evidence": ["contoso-2018"]},
+    {"role": "bullet", "text": "Built a design system of 35 components adopted by 6 teams.", "evidence": ["contoso-2018.f1"]},
+    {"role": "section", "text": "EDUCATION"},
+    {"role": "entry", "text": "**University of Texas at Austin** — B.S. Computer Science\t2018", "evidence": ["edu-ut"]}
+  ]
+}
