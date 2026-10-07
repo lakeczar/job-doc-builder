@@ -36,7 +36,7 @@ in this repo.
 Clone this repo into your agent's skills folder, for example:
 
 ```sh
-git clone <this repo> ~/.claude/skills/job-doc-builder
+git clone https://github.com/lakeczar/job-doc-builder ~/.claude/skills/job-doc-builder
 pip install -r ~/.claude/skills/job-doc-builder/requirements.txt
 ```
 
